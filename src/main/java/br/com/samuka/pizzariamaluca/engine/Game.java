@@ -204,7 +204,7 @@ public class Game implements Runnable {
                 }
 
                 i++;//incrementa contador de players.
-            } catch (HeadlessException e) {
+            } catch (Exception e) {
                 playerPlay = null;
             }
         }
